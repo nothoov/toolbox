@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 2026-11-14
+
+- Added a monochrome sci-fi startup sequence with a segmented loading bar, animated rings and an nH logo reveal over a subtle galaxy backdrop.
+- Improved startup text contrast and readability.
+- Removed unnecessary access notices from the interface.
+
 ## 0.1.2 — 2026-11-14
 
 - Startup now asks whether to install a newer release instead of only showing a notice after the splash.
