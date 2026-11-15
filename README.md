@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.1** brings the tools together in a readable interface with the white nH logo and animated startup.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.2** brings the tools together in a readable interface with the white nH logo and animated startup.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
@@ -27,7 +27,7 @@ The standalone executable is the file to share. GPU Studio's NVIDIA controls req
 
 ## Updates
 
-The app checks this repository's releases at startup and shows when a newer version is available. Startup checks do **not** install updates. Select **Check for updates** and confirm the prompt to download and install a newer release. Downloads are verified before installation, and the previous executable is retained for recovery. You can also download releases manually from GitHub.
+The app checks this repository's releases at startup. When a newer version is available, it asks whether to download and install it now. Choose **Yes** to update, or **No** to keep using the current version and update later with **Check for updates**. Downloads and installation start only after your confirmation. Downloads are verified before installation, and the previous executable is retained for recovery. You can also download releases manually from GitHub.
 
 ## Support
 
