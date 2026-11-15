@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.3** combines a readable interface with a monochrome sci-fi startup sequence: a segmented loading bar, animated rings and the white nH logo revealed over a subtle galaxy backdrop.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.4** adds the optional nothoov Matte Chalk cursor pack in Personal Settings, alongside the readable interface and monochrome sci-fi startup sequence.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
@@ -8,7 +8,7 @@ A Windows desktop toolbox for system information, maintenance, repair and config
 
 | Page | Features |
 | --- | --- |
-| **Overview** | CPU, GPU, memory, motherboard, BIOS and Windows details; shortcuts to personal settings, services, registry controls and VALORANT compatibility checks. |
+| **Overview** | CPU, GPU, memory, motherboard, BIOS and Windows details; shortcuts to personal settings, services, registry controls and VALORANT compatibility checks. Personal Settings includes Apply and Restore controls for the optional nothoov Matte Chalk cursor pack. |
 | **Windows Repair** | DISM and SFC, separately or together, with live progress and saved session logs. |
 | **GPU Studio** | NVIDIA driver tools, clean-install workflow and profile controls. |
 | **COD Config** | Install and restore supported Call of Duty configurations, with backups of original settings. |
@@ -22,6 +22,8 @@ A Windows desktop toolbox for system information, maintenance, repair and config
 1. Download **`nothoovs-toolbox.exe`** from the [latest release](https://github.com/nothoov/toolbox/releases/latest).
 2. Save it in a folder you can keep and open it on Windows. Approve the administrator prompt for system tools.
 3. Choose a page and review the action before applying changes. Keep the app open while an operation is running.
+
+To use the included cursor pack, open **Overview → Personal Settings → nothoov Matte Chalk cursors** and choose **Install & apply**. **Restore previous** returns to your saved cursor scheme.
 
 The standalone executable is the file to share. GPU Studio's NVIDIA controls require compatible NVIDIA hardware; other features depend on the software and hardware installed on the PC. Internet access is needed for update checks and tools that download components.
 
