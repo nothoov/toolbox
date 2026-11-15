@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.4 — 2026-11-14
+
+- Added the optional nothoov Matte Chalk cursor pack in Personal Settings.
+- Added separate Apply and Restore controls for the cursor pack.
+- Retained the existing startup presentation and update confirmation.
+
 ## 0.1.3 — 2026-11-14
 
 - Added a monochrome sci-fi startup sequence with a segmented loading bar, animated rings and an nH logo reveal over a subtle galaxy backdrop.
