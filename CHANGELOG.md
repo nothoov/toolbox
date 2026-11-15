@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.2 — 2026-11-14
+
+- Startup now asks whether to install a newer release instead of only showing a notice after the splash.
+- The update confirmation appears above the splash screen. Declining keeps the current version open; no update downloads without approval.
+- Added a startup integration check that exercises the packaged app, its gateway and the live GitHub feed together.
+- Retained title-bar dragging, the administrator launch fix, package verification and update recovery.
+
 ## 0.1.1 — 2026-11-14
 
 ### Fixed
