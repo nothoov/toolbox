@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.2** brings the tools together in a readable interface with the white nH logo and animated startup.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.3** combines a readable interface with a monochrome sci-fi startup sequence: a segmented loading bar, animated rings and the white nH logo revealed over a subtle galaxy backdrop.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
