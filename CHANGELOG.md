@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.8 — 2026-11-25
+
+- Removed irrelevant legacy FiveM preset notices from successful GPU and NVIDIA profile completion.
+- The old machine-specific entries remain excluded. Actionable warnings and errors stay visible; driver installation and profile settings are unchanged.
+
 ## 0.1.7 — 2026-11-25
 
 - Fixed a `Microsoft.PowerShell.Utility` module error that could stop the adaptive NVIDIA profile step near 90% in Auto GPU.
