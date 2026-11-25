@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.6 — 2026-11-24
+
+- NVIDIA profile preparation now uses the installed driver's current game profiles and applies the toolbox's existing supported custom settings.
+- Retained explicit custom profiles, settings and added game associations, with toolbox values taking precedence on conflicts. Refreshing driver defaults can restore previously deleted vendor profiles or associations. Unsupported or unmatched entries are reported.
+- Added a before-change snapshot and export of the resulting profiles using the actual installed driver version.
+- Updated NVIDIA profile descriptions and confirmation text in all supported interface languages.
+
 ## 0.1.5 — 2026-11-24
 
 - Added automatic discovery of compatible NVIDIA WHQL Game Ready drivers, including 621.40. Future compatible releases can appear without a toolbox update.
