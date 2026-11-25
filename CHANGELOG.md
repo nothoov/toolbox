@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.1.5 — 2026-11-24
+
+- Added automatic discovery of compatible NVIDIA WHQL Game Ready drivers, including 621.40. Future compatible releases can appear without a toolbox update.
+- New driver entries use the existing NVCleanstall debloat, component selection and clean-install workflow.
+- Retained existing compatible driver choices and a saved catalog when NVIDIA's live lookup is unavailable.
+- Driver selection and installation remain explicit actions. Driver downloads are checked before the existing installation workflow continues.
+- Fixed a progress-counter overflow that could stop preparation of large driver packages.
+
 ## 0.1.4 — 2026-11-14
 
 - Added the optional nothoov Matte Chalk cursor pack in Personal Settings.
