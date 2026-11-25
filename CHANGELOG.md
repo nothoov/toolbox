@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.7 — 2026-11-25
+
+- Fixed a `Microsoft.PowerShell.Utility` module error that could stop the adaptive NVIDIA profile step near 90% in Auto GPU.
+- Profile file checks now work in the packaged toolbox host without depending on that PowerShell module. Existing settings, snapshots, verification and rollback behavior are retained.
+- If the driver installation already completed before this error, update the toolbox and run **Apply NVIDIA Profile** in GPU Studio; reinstalling the driver is unnecessary.
+
 ## 0.1.6 — 2026-11-24
 
 - NVIDIA profile preparation now uses the installed driver's current game profiles and applies the toolbox's existing supported custom settings.
