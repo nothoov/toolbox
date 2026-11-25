@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.4** adds the optional nothoov Matte Chalk cursor pack in Personal Settings, alongside the readable interface and monochrome sci-fi startup sequence.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.5** adds automatic discovery of compatible NVIDIA Game Ready drivers, including **621.40**, through the existing debloat and clean-install workflow.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
@@ -10,7 +10,7 @@ A Windows desktop toolbox for system information, maintenance, repair and config
 | --- | --- |
 | **Overview** | CPU, GPU, memory, motherboard, BIOS and Windows details; shortcuts to personal settings, services, registry controls and VALORANT compatibility checks. Personal Settings includes Apply and Restore controls for the optional nothoov Matte Chalk cursor pack. |
 | **Windows Repair** | DISM and SFC, separately or together, with live progress and saved session logs. |
-| **GPU Studio** | NVIDIA driver tools, clean-install workflow and profile controls. |
+| **GPU Studio** | Automatic discovery of compatible NVIDIA WHQL Game Ready drivers, driver debloating, clean-install workflow and profile controls. |
 | **COD Config** | Install and restore supported Call of Duty configurations, with backups of original settings. |
 | **Debloat** | Review installed apps and choose which supported apps to remove. |
 | **ISLC Setup** | Configure Intelligent Standby List Cleaner for detected memory, manage startup and control its running state. |
@@ -24,6 +24,8 @@ A Windows desktop toolbox for system information, maintenance, repair and config
 3. Choose a page and review the action before applying changes. Keep the app open while an operation is running.
 
 To use the included cursor pack, open **Overview → Personal Settings → nothoov Matte Chalk cursors** and choose **Install & apply**. **Restore previous** returns to your saved cursor scheme.
+
+GPU Studio checks NVIDIA for Game Ready releases matched to your detected GPU and Windows version, so newly released compatible drivers can appear without a toolbox update. New entries use the same driver debloat and clean-install steps as the existing choices. You still choose the driver and confirm the operation; discovery does not install anything. If the live lookup is unavailable, the toolbox can use recent saved NVIDIA entries alongside NVCleanstall's compatible driver list. A download still requires internet access unless the package is already cached.
 
 The standalone executable is the file to share. GPU Studio's NVIDIA controls require compatible NVIDIA hardware; other features depend on the software and hardware installed on the PC. Internet access is needed for update checks and tools that download components.
 
