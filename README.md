@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.7** fixes a PowerShell module error that could interrupt the NVIDIA profile step near the end of Auto GPU.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.8** removes irrelevant legacy FiveM preset notices from successful GPU and profile completion.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
