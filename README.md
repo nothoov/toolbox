@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.6** builds NVIDIA profile settings from the installed driver's current game profiles and the toolbox's existing custom settings.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.7** fixes a PowerShell module error that could interrupt the NVIDIA profile step near the end of Auto GPU.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
@@ -28,6 +28,8 @@ To use the included cursor pack, open **Overview → Personal Settings → notho
 GPU Studio checks NVIDIA for Game Ready releases matched to your detected GPU and Windows version, so newly released compatible drivers can appear without a toolbox update. New entries use the same driver debloat and clean-install steps as the existing choices. You still choose the driver and confirm the operation; discovery does not install anything. If the live lookup is unavailable, the toolbox can use recent saved NVIDIA entries alongside NVCleanstall's compatible driver list. A download still requires internet access unless the package is already cached.
 
 The NVIDIA profile step uses game profiles supplied by your installed driver and applies the toolbox's supported custom settings. Explicit custom profiles, settings and added game associations are retained; toolbox values take precedence when both specify the same setting. Refreshing driver defaults can restore vendor profiles or associations you previously deleted. Unsupported or unmatched entries are reported. A snapshot is saved before changes, and the resulting profile export reflects the actual installed driver version. New game profiles come from NVIDIA's driver; the toolbox keeps its existing tuning values.
+
+If Auto GPU already installed your driver but stopped at the profile step with a `Microsoft.PowerShell.Utility` error, update the toolbox and use **Apply NVIDIA Profile** in GPU Studio. You do not need to reinstall the driver to retry that step.
 
 The standalone executable is the file to share. GPU Studio's NVIDIA controls require compatible NVIDIA hardware; other features depend on the software and hardware installed on the PC. Internet access is needed for update checks and tools that download components.
 
