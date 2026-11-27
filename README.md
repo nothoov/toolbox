@@ -1,6 +1,6 @@
 # nothoovs-toolbox
 
-A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.8** removes irrelevant legacy FiveM preset notices from successful GPU and profile completion.
+A Windows desktop toolbox for system information, maintenance, repair and configuration. Version **0.1.9** improves text contrast in progress and confirmation dialogs, including the Close button, status labels and Xbox component choices.
 
 [Download the latest release](https://github.com/nothoov/toolbox/releases/latest) · [Changelog](CHANGELOG.md) · [Discord support](https://www.discord.gg/89YeTh3zgB)
 
