@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.9 — 2026-11-26
+
+- Improved text contrast in progress and confirmation dialogs, including the Close button, status labels and Xbox component choices.
+
 ## 0.1.8 — 2026-11-25
 
 - Removed irrelevant legacy FiveM preset notices from successful GPU and NVIDIA profile completion.
